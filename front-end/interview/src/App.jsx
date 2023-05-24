@@ -74,12 +74,12 @@ function App() {
         <div className="container my-md-4 my-sm-2 card-payment">
         
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 order-first">
               <div className="text-center">
                 <h1>Payment information</h1>
               </div>
             </div>
-            <div className='col-6 p-4'>
+            <div className='col-md-6 col-sm-12 p-4'>
             <form action="handleSubmit">
               <div className="container">
                 <div className="row">
@@ -110,7 +110,7 @@ function App() {
               </div>
           </form>
             </div>
-            <div className='col-6 p-4'>
+            <div className='col-md-6 col-sm-12 order-sm-first order-md-last p-4'>
               <div className="container">
                 <div className="row">
                   <div className="col-12 my-2">
