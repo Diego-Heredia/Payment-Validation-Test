@@ -13,16 +13,21 @@ Test para validar los datos de una terjeta de credito
 
 1. Navega a la carpeta del back-end:
 
-````bash
+```bash
 cd back-end/
+```
 
 2. Instala las dependencias:
+
 ```bash
 npm install
+```
 
 3. Inicia el servidor:
+
 ```bash
 node server.js
+```
 
 Nota: Asegúrate de iniciar primero el servidor back-end antes de iniciar el front-end.
 
@@ -32,22 +37,16 @@ Nota: Asegúrate de iniciar primero el servidor back-end antes de iniciar el fro
 
 ```bash
 cd front-end/interview
+```
 
 2. Instala las dependencias:
 
 ```bash
 npm install
+```
 
 3. Inicia la aplicación:
 
 ```bash
 npm run dev
-
-
-
-
-
-
-
-
-````
+```
