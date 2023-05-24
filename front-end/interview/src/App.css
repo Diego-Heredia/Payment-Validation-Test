@@ -1,0 +1,110 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+/* ----------------------- Elementos de la pagina ----------------------- */
+/*===== Colores =====*/
+:root {
+  --first-color: #5361ff;
+  --white-color: #fafaff;
+  --dark-color: #2a3b47;
+  --text-color: #7A7A7A;
+  --bg: #E7EAF6;
+  --success: #00AA70;
+}
+
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: "Montserrat", sans-serif;
+  --big-font-size: 6.25rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+}
+input[type="number"].no-spinners::-webkit-inner-spin-button,
+input[type="number"].no-spinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.land{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  display: flex;
+  background-color: var(--bg);
+}
+.card-payment{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 8px;
+}
+label{
+  color: var(--text-color);
+}
+.btnAdd{
+  background-color: var(--first-color);
+  color: var(--white-color);
+  margin: 2rem 0 0 0;
+transition: all 0.3s ease-in-out;
+}
+.btnAdd:hover{
+  background-color: var(--success);
+  color: var(--white-color);
+
+}
+.cardSum{
+  border: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+}
+
+
+
+/* ----------------------- Elementos de la pagina ----------------------- */
+
+
+
+
